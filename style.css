@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 30px 0 0 0;
+}
+
+.identificacion {
+    flex-basis: 10%;
+    display: flex;
+    padding: 0px 10px;
+    font-size: 80%;
+}
+
+.fecha {
+    margin-left: auto;
+    color: #acacac;
+}
+
+.imagen {
+    width: 100%;
+    flex-basis: 80%;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: auto;
+    height: 100%;
+
+}
+
+.comentario {
+    flex-basis: 10%;
+    padding: 0 10px;
+    font-size: 80%;
+}
+
+.caja:last-of-type {
+    margin-bottom: 30px;
+}
+
+
